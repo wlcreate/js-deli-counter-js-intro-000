@@ -8,6 +8,7 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine === []) {
     return "There is nobody waiting to be served!"
   } else {
-    return katzDeliLine.shift()
+    var name = katzDeliLine.shift()
+    return `Currently serving ${name}.`
   }
 }
