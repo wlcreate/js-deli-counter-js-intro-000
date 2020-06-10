@@ -17,11 +17,12 @@ function currentLine(currentLine) {
   if (currentLine.length === 0) {
     return "The line is currently empty."
   } else {
+    var line = []
     var place = 1
     for (let i = 0; i < currentLine.length; i++) {
-      var line = ` ${place}. ${currentLine[i]},`
+      var spot = ` ${place}. ${currentLine[i]},`
       place++
-      console.log(line)
+      line.push(spot)
     }
     return "The line is currently:" + line
   }
