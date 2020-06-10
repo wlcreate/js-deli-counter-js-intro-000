@@ -20,7 +20,7 @@ function currentLine(currentLine) {
     var place = 1
     for (let i = 0; i < currentLine.length; i++) {
       var line = ` ${place}. ${currentLine[i]},`
-      return "The line is currently:" + place
+      return "The line is currently: " + line
     }
   }
 }
