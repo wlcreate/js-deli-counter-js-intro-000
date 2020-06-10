@@ -20,7 +20,7 @@ function currentLine(currentLine) {
     var line = []
     var place = 1
     for (let i = 0; i < currentLine.length; i++) {
-      var spot = ` ${place}. ${currentLine[i]},`
+      var spot = ` ${place}. ${currentLine[i]}`
       place++
       line.push(spot)
     }
