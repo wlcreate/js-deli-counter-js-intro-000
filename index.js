@@ -18,7 +18,7 @@ function currentLine(currentLine) {
     return "The line is currently empty."
   } else {
     for (let i = 0; i <= currentLine.length; i++) {
-      var line = ` ${place}. ${currentLine[i]},`
+      var line = ` ${i}. ${currentLine[i]},`
       return "The line is currently:" + place
     }
   }
