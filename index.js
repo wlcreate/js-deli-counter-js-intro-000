@@ -19,8 +19,8 @@ function currentLine(currentLine) {
   } else {
     for (let i = 1; i <= currentLine.length; i++) {
       var place = ` ${i}. ${currentLine[i]},`
-      return place
+      return "The line is currently:" + place
     }
-    return "The line is currently:" + place
+    return
   }
 }
