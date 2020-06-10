@@ -21,6 +21,5 @@ function currentLine(currentLine) {
       var place = ` ${i}. ${currentLine[i]},`
       return "The line is currently:" + place
     }
-    return
   }
 }
